@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <p1>Calculadora v2.0</p1> 
+    </header>
+    <p></p>
+    <section>
+        <div>
+            <p>Insira o primeiro número</p>
+            <input type="text"" id="valor1">
+            <p>Insira o segundo número, caso necessário</p>
+            <input type="text" id="valor2">
+            <p>Selecione a operação desejada</p>
+            <p><select id="operadores" onchange="verifica()">
+                <optgroup label="Básicos">
+                    <option value="+"> Soma </option>
+                    <option value="-"> Subtração </option>
+                    <option value="/"> Divisão </option>
+                    <option value="*"> Multiplicação </option>
+                </optgroup>
+                <optgroup label="Outros">
+                    <option value="!">Fatorial</option>
+                    <option value="%">Porcentagem</option>
+                    <option value="sqr">Raíz</option>
+                    <option value="pot">Potência</option>
+                </optgroup>
+                </select></p>
+            <p><input type="button" value="Limpar" onclick="Limpar('valor1','valor2')"> <input type="button" value="Calcular" onclick="calcular('valor1','valor2')"> </p>
+        </div>
+        <div id="res">
+            <strong></strong>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
