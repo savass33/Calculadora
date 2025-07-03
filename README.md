@@ -1,3 +1,30 @@
-Primeiro projeto pessoal feito a fim de testar habilidades aprendidas durante estudos Universitários e Cursos Online Gratuitos.
-O projeto apresenta uma única tela na qual existem duas caixas para colocar números e uma lista de seleção para escolher qual operação deseja-se realizar utilizando esses dois números.
-Logo abaixo, existe dois botões nos quais o "Limpar" apenas limpa as caixas de texto caso estivessem com algum dado. Além do botão "Calcular" em que se realiza a expressão matemática dos números e operações selecionadas.
+# 🧮 Calculadora
+
+Este repositório contém duas versões de uma **calculadora web**, desenvolvidas com **HTML, CSS e JavaScript** puro. O projeto foi criado com fins educacionais, com o objetivo de praticar conceitos fundamentais de **desenvolvimento front-end**, como manipulação do DOM, estruturação de páginas web e estilização responsiva.
+
+---
+
+## 🧠 Tecnologias Utilizadas
+
+- HTML5 — estrutura semântica da página
+- CSS3 — estilização e layout responsivo
+- JavaScript (puro) — lógica de funcionamento da calculadora
+- DOM API — interação dinâmica com os elementos da página
+
+---
+
+## 📑 Funcionalidades
+
+- Interface básica
+- Operações matemáticas simples:
+  - Soma
+  - Subtração
+  - Multiplicação
+  - Divisão
+- Estilo visual com CSS tradicional
+- Interface aprimorada com novo layout
+- Lógica mais modular no script
+- Estilização mais moderna e limpa
+- Melhor separação entre HTML, CSS e JS
+
+---
