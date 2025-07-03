@@ -1,6 +1,6 @@
 # 🧮 Calculadora
 
-Este repositório contém duas versões de uma **calculadora web**, desenvolvidas com **HTML, CSS e JavaScript** puro. O projeto foi criado com fins educacionais, com o objetivo de praticar conceitos fundamentais de **desenvolvimento front-end**, como manipulação do DOM, estruturação de páginas web e estilização responsiva.
+Este repositório contém uma versão de uma **calculadora web**, desenvolvidas com **HTML, CSS e JavaScript** puro. O projeto foi criado com fins educacionais, com o objetivo de praticar conceitos fundamentais de **desenvolvimento front-end**, como manipulação do DOM, estruturação de páginas web e estilização responsiva.
 
 ---
 
